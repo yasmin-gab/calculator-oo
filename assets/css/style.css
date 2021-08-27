@@ -1,0 +1,95 @@
+* {
+    font-family: 'Georama', sans-serif;
+    font-size: 30px;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.container-form {
+    background-color: #BFEFFF;
+    width: 60%;
+    height: 60%;
+    align-items: center;
+    display: flex;
+    float: left;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+.calc-form {
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    width: 80%;
+    height: 100%;
+    padding-top: 5%;
+    margin-left: 10%;
+    background-color: #9AC0CD;
+}
+.numbers, .ops {
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: block;
+    width: 100%;
+}
+.number {
+    float: left;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+#result {
+    background-color: #FFA500;
+}
+.result {
+    width: 25%;
+}
+#result:hover {
+    background-color: #FF8C00;
+}
+.ops {
+    float: right;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #1E90FF;
+    width: 50%;
+}
+.background-ops {
+    background: #00BFFF;
+}
+.background-ops:hover {
+    background: #1E90FF;
+}
+#number {
+    width: 100%;
+    margin: 0;
+    height: 60px;
+}
+input {
+    background: #E0FFFF;
+    border: 0;
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+}
+input:hover {
+    background: #AEEEEE;
+}
+.n1, .n2 {
+    width: 25%;
+}
+.reset {
+    width: 20%;
+    background: #E9967A;
+}
+.reset:hover {
+    background: #FA8072;
+}
+
